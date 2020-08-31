@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/images/wood-board-background-2.jpg");
+    background-size: 100%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar {
+    background-color: antiquewhite;
+}
+
+.nav-title {
+    font-weight: bold;
+}
+
+.container {
+    border: none;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.content-box {
+    background-color: bisque;
+    background-blend-mode: lighten;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    border: 0px 0px 10px 10px;
+}
