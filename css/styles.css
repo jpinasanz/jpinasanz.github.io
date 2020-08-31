@@ -33,6 +33,8 @@ h1 {
     background-blend-mode: lighten;
 }
 
+.image-box {}
+
 .navbar-brand {
     font-size: 2em;
     border: 0px 0px 10px 10px;
