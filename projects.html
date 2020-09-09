@@ -7,54 +7,84 @@
     <meta name="Description" content="Info about my page">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js "></script>
 </head>
 
 <body>
-    <header class="nav-header">
-        <nav id="nav-bar" class="navbar navbar-default">
-            <div class="d-flex container">
-                <div class="navbar-header">
-                    <div class="navbar-brand">
-                        <p class="nav-brand">
-                            <a class="nav-title" href="/index.html">J.C.'s Career Page
-                            </a></p>
-                    </div>
-                </div>
-                <!--Navbar Links Left to Right-->
-                <div class="justify-content-start">
-                    <ul class="nav">
-                        <li class="nav-item nav-bar-link">
-                            <a class="nav-link" href="/aboutme.html">About Me</a>
-                        </li>
-                        <li class="nav-item nav-bar-link">
-                            <a class="nav-link" href="/education.html">My Education</a>
-                        </li>
-                        <li class="nav-item nav-bar-link">
-                            <a class="nav-link" href="/career.html">My Career</a>
-                        </li>
-                        <li class="nav-item nav-bar-link">
-                            <a class="nav-link" href="projects.html">My Projects</a>
-                        </li>
-                    </ul>
-                </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav-bar-style" ">
+            <a class="navbar-brand nav-title nav-link " href="index.html ">
+                <p class="nav-title text-white ">J.C.'s Career Page</p>
+            </a>
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="navbarNavDropdown " aria-controls="navbarNavDropdown " aria-expanded="false " aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon "></span>
+        </button> <!--Navbar Button-->
+
+            <div class="collapse navbar-collapse " id="navbarNavDropdown ">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white " href="/aboutme.html ">
+                            About Me
+                        </a>
+                    </li>
+                    <!--About Me-->
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white " href="# " id="EduNavBarDropdownMenuLink " role="button " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                            My Education
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="EduNavBarDropdownMenuLink ">
+                            <a class="dropdown-item " href="# ">San Diego State University</a>
+                            <a class="dropdown-item " href="# ">San Diego Miramar/Mesa College</a>
+                        </div>
+                        <!--Education Options-->
+                    </li>
+                    <!--Education-->
+
+                    <li class="nav-item dropdown text-white ">
+                        <a class="nav-link dropdown-toggle text-white " href="# " id="CarNavBarDropdownMenuLink " role="button " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                My Career
+                            </a>
+                        <div class="dropdown-menu " aria-labelledby="CarNavBarDropdownMenuLink ">
+                            <a class="dropdown-item " href="# ">San Diego State University: IT Division ServiceNow</a>
+                            <a class="dropdown-item " href="# ">San Diego State University: Instructional Technology Services</a>
+                            <a class="dropdown-item " href="# ">Best Buy Mira Mesa</a>
+                        </div>
+                        <!--Career Options-->
+                    </li>
+                    <!--Career-->
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white " href="# " id="ProjNavBarDropdownMenuLink " role="button " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                Projects/Additional Studies
+                            </a>
+                        <div class="dropdown-menu " aria-labelledby="ProjNavBarDropdownMenuLink ">
+                            <a class="dropdown-item " href="# ">Github Webpage</a>
+                            <a class="dropdown-item " href="# ">Coursera Courses</a>
+                        </div>
+                        <!--Project Options-->
+                    </li>
+                    <!--Projects-->
+                </ul>
+                <!--Navbar List-->
             </div>
         </nav>
-    </header>
+        <!-- End of Navbar-->
+    </header>>
 
-    <!--Main Content Box for Landing Page-->
-    <div class="row content-box container container-fluid">
-        <p class="content-box-text"> Put Projects Here
-        </p>
-    </div>
-    <!--Image Box-->
-    <div class="row image-box container container-fluid">
-        <div>
-            <img src="" class="img-fluid" height=auto max-width="80%" ">
+    <div class="row container container-fluid " id="main ">
+        <!--Main Content Box for Landing Page-->
+        <div class="row content-box container container-fluid ">
+            <p class="content-box-text "> Put Projects Here
+            </p>
         </div>
-        <div> Image Caption</div>
-    </div>
-    <!--Load external libraries here-->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js "></script>
+        <!--Image Box-->
+        <div class="row image-box container container-fluid ">
+            <div>
+                <img src=" " class="img-fluid " height=auto max-width="80% " ">
+            </div>
+            <div> Image Caption</div>
+            </div>
+            </div>
 </body>
 
 </html>

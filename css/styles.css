@@ -11,13 +11,20 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#nav-bar {
+#main-content {
+    position: relative;
+}
+
+#nav-bar-style {
     background-color: rgb(32, 32, 32);
     background-blend-mode: lighten;
 }
 
-.nav-title {
+.nav-bar-text {
     color: azure;
+}
+
+.nav-title {
     font-weight: bold;
 }
 
