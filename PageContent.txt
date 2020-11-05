@@ -1,0 +1,31 @@
+> Introduction
+    >> Main Intro Body
+> Career
+    >> SDSU IT Division ServiceNow 
+        >> Service Catalog Development
+        >> ServiceNow Mobile Agent
+        >> ServiceNow Application Administration
+    >> SDSU Instructional Technology Services
+        >> One-Stop Student Assistant
+        >> ITS Special Projects
+            >> AWS Boto3 Audio Transciption Project
+            >> GitHub/AWS Excel Conversion Tool for Parscore grader
+    >> Best Buy
+        >> Inventory Specialist
+        >> Geek Squad
+        >>  PC Home Office Associate
+> Education
+    >> San Diego State University
+        >> Coursework
+            >> Wireless Networks
+            >> 3D Game Programming
+            >> Database Theory and Implementation
+            >> Mathematical Programming/Modeling
+    >> San Diego Miramar/Mesa College
+        >> Coursework
+            >> Systems Analysis and Design
+            >> Java Programming
+            >> C++ Programming
+> Projects/Additional Coursework
+    >> Coursera: HTML, CSS and JavaScript
+    >> Career Web Page

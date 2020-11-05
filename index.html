@@ -1,99 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title> J.C.'s Career page</title>
     <meta charset="UTF-8">
     <meta name="Description" content="Info about my page">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js "></script>
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" id="nav-bar-style" ">
-            <a class="navbar-brand nav-title nav-link text-white " href="index.html " >
-                J.C.'s Career Page
-            </a>
-        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="navbarNavDropdown " aria-controls="navbarNavDropdown " aria-expanded="false " aria-label="Toggle navigation ">
-            <span class="navbar-toggler-icon "></span>
-        </button> <!--Navbar Button-->
-
-            <div class="collapse navbar-collapse " id="navbarNavDropdown ">
-                <ul class="navbar-nav ">
-                    <li class="nav-item ">
-                        <a class="nav-link text-white " href="/aboutme.html ">
-                            About Me
-                        </a>
-                    </li>
-                    <!--About Me-->
-
-            <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-white " href="education.html " id="EduNavBarDropdownMenuLink " role="button " data-toggle="dropdown " aria-haspopup="true " aria-expanded=" false ">
-            My Education
-            </a>
-            <div class=" dropdown-menu " aria-labelledby="EduNavBarDropdownMenuLink ">
-                <a class="dropdown-item " href="# ">San Diego State University</a>
-                <a class="dropdown-item " href="# ">San Diego Miramar/Mesa College</a>
-            </div>
-            <!--Education Options-->
-            </li>
-            <!--Education-->
-
-            <li class="nav-item dropdown text-white ">
-                <a class="nav-link dropdown-toggle text-white " href="career.html " id="CarNavBarDropdownMenuLink " role="button " data-toggle="dropdown " aria-haspopup="false " aria-expanded="false ">
-                     My Career
-                    </a>
-                <div class="dropdown-menu " aria-labelledby="CarNavBarDropdownMenuLink ">
-                    <a class="dropdown-item " href="# ">San Diego State University: IT Division ServiceNow</a>
-                    <a class="dropdown-item " href="# ">San Diego State University: Instructional Technology Services</a>
-                    <a class="dropdown-item " href="# ">Best Buy Mira Mesa</a>
-                </div>
-                <!--Career Options-->
-            </li>
-            <!--Career-->
-            <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-white " href="projects.html " id="ProjNavBarDropdownMenuLink " role="button " data-toggle="dropdown " aria-haspopup="false " aria-expanded="false ">
-                                Projects/Additional Studies
-                            </a>
-                <div class="dropdown-menu " aria-labelledby="ProjNavBarDropdownMenuLink ">
-                    <a class="dropdown-item " href="# ">Github Webpage</a>
-                    <a class="dropdown-item " href="# ">Coursera Courses</a>
-                </div>
-                <!--Project Options-->
-            </li>
-            <!--Projects-->
-            </ul>
-            <!--Navbar List-->
-            </div>
-        </nav>
-        <!-- End of Navbar-->
+        <div>
+            <h1> Juan Pina-Sanz</h1>
+            <h2>Bachelor of Computer Science</h2>
+        </div>
+        <!-- <h3>San Diego State University</h3> -->
     </header>
 
-    <!--Main Content Box for Landing Page-->
-    <div class="row container container-fluid " id="main-content ">
-        <div class="row content-box container container-fluid ">
-            <p class="content-box-text "> I am a fresh graduate of Computer Science from San Diego State University. I have a passion for software development and a desire to build applications that help people and grow business. Through my work experiences and academic pursuits,
-                I have developed strong team-based skills and a proficiency to lead and mentor others. My career goal is to grow and work as a software engineer
-            </p>
-        </div>
-        <!--Text Box-->
-        <div class="row image-box container container-fluid ">
-            <figure class="figure ">
-                <img src="images/sample-img.jpg " class="figure-img img-fluid rounded " height=auto max-width="80% " ">
-            <figcaption class="figure-caption ">
-                <div class="content-box rounded ">
-                    <p class="content-box-text ">
-                        Image Caption
-                    </p>
-                </div>
-            </figcaption>
-            </figure>
+    <div id="nav-placeholder"></div>
+    <div id="main-content">
+        <div class="site-wrap " id="main-content ">
+            <h3>Welcome to my page!</h3>
+            <div class="row content-box container container-fluid ">
+                <p class="content-box-text "> Hello! My name is JC Pina-Sanz. I am a fresh graduate of Computer Science from San Diego State University.
+                    <p>I have a passion for software development and a desire to build applications that help people and grow business. Through my work experiences and academic pursuits, I have developed strong team-based skills and a proficiency to lead
+                        and mentor others. My career goal is to grow and work as a software engineer</p>
+                </p>
+            </div>
+            <!--Text Box-->
+            <div class="row image-box container container-fluid ">
+                <p>This page is intended to showcase my education and my work. I hope it will help you get to know me and give you an idea of who I am and what I can do!</p>
             </div>
             <!--Image Box-->
-            </div>
+        </div>
+    </div>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/pageload-scripts.js"></script>
+    <script src="js/bootstrap.min.js "></script>
 </body>
 
 </html>
