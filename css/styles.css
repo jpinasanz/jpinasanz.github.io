@@ -61,17 +61,23 @@ h3 {
     font-weight: bold;
 }
 
-h3.school-degree {
-    font-size: 1em;
+h3.primary {
+    font-size: 1.25em;
 }
 
-h3.graduating-year {
+h3.secondary {
     font-size: 1em;
     color: rgba(1, 1, 1, 0.2));
 }
 
 h3 a {
     color: black;
+}
+
+.course-links {
+    color: black;
+    text-align: left;
+    justify-content: flex-start;
 }
 
 .container {
@@ -89,6 +95,11 @@ p {
     font-size: .75em;
     text-align: left;
     margin: .75em;
+}
+
+p.project-title {
+    font-size: .85em;
+    font-weight: 500;
 }
 
 nav {
@@ -154,7 +165,7 @@ nav a {
 
 .edu-catalog-img {
     margin: 10px auto;
-    height: 1em%;
+    height: auto%;
     width: 100%;
 }
 
