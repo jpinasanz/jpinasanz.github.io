@@ -160,7 +160,7 @@ nav a {
 .image-box {
     display: flex;
     align-items: flex-end;
-    justify-content: left;
+    /* justify-content: left; */
 }
 
 .edu-catalog-img {
