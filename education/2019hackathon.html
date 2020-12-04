@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> My Career</title>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Info about my page">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><a href="../index.html" style='text-decoration: none; color: white;'> Juan Pina-Sanz</a></h1>
+            <h2>Bachelor of Computer Science</h2>
+        </div>>
+    </header>
+    <div id="nav-placeholder"></div>
+    <div class="main-content">
+        <div class="site-wrap">
+            <div class="row">
+                <div class="text-content-box col-md-8 col-sm-12">
+                    <h3 class="primary"><a> San Diego State University: ServiceNow Hackathon</a></h3>
+                    <h3 class="secondary">Participant and Winner</h3>
+                    <h3 class="secondary">Aug 2019</h3>
+                    <h3 class="secondary"><br>The Event:</h3>
+                    <div>
+                        <p>
+                            In summer of 2019 I participated in the SDSU/ServiceNow Hackathon. The event was held on campus and featured a three day boot-camp to learn the basics of development on the ServiceNow web platform and then a two day competition to design, implement and
+                            present our ideas.
+                        </p>
+                        <p>
+                            The boot-camp was composed of three days of studying and implementing a "Loaner Device" application using the ServiceNow Studio tool. Guided by a ServiceNow Technical Trainer, we covered the basics of designing and implementing custom applications and
+                            features using the ServiceNow platform. Everything from table creation and management, to building workflows and script includes for email automation were included in this week long event.
+                        </p>
+                        <p>
+                            After the three days of boot-camp, we were split into groups to participate in a nine team competition to design and implement a ServiceNow application that would solve a real-world problem. My group was composed of both SDSU graduate and undergraduate
+                            students. My four team members were Management Information Systems majors and myself a Computer Science major.
+                        </p>
+                        <h3 class="secondary">The Problem:</h3>
+                        <p>
+                            The problem we sought to address was one presented to us by one of my team members who sought to build an application that would simplify the registration and check in system that was already in place for the non-profit organization, Dreams for Change.
+                        </p>
+                        <p>The non-profit organization, Dreams For Change, provides a service to individuals who are currently homeless and living in their vehicles. With the approval of local business owners and churches, Dreams For Change provides homeless
+                            individuals a safe place for them to park their vehicles over-night. In order to take advantage of this program, individuals would need to be registered into the program by a organization representative. The individual would
+                            then be assigned a location based on their preferred location (North County, East County, South Bay, etc). These locations would be updated daily and participants would be emailed everyday with their pre-approved location and
+                            check in window. The program also implemented a "3-strikes" rule and participants are allowed three missed check-ins before being removed from the program.
+                        </p>
+                        <p>
+                            At the time, Dreams for Change would fill in the information manually into paper forms and carry a check-in sheet at each location. These forms are then dropped off at the organization's office and manually entered into their system.
+                        </p>
+                        <h3 class="secondary">Our Solution:</h3>
+                        <p>
+                            We wanted to build a registration form and a check-in application to help the organization track a participant's attendance. We also wanted to implement a workflow that would automatically send confirmation emails to participants and automatically update
+                            a participant's attendance status based on how many missed check-ins they had. We also wanted the application to automatically send participants updates on their check-in time and location.
+                        </p>
+
+                        <h3 class="secondary">Competition Breakdown:</h3>
+                        <p>
+                            On the first day of the competition we drew up a plan of how we wanted the application to work and began implementing the core functionalities. Utilizing separate scopes for organization employees and program participants, we built private tables that
+                            would store participant's information. Information like their first and last name, email, phone number, emergency contact and location would be stored in a table that is only visible to organization members. Each user record
+                            would also contain a newly created variable that would track their missed attendances. I wrote a background script would check for updates made to the missed attendances variable and update a participant's status based on this
+                            number. We also worked to automate email notifications to users that would confirm their registration and check-in times.
+                        </p>
+                        <p>
+                            On the second day we implemented a feature on the attendance table to color code a user record's attendance variable. Green would mean no missed check-ins, yellow for one missed, orange for two, and red for three. Once a participant's had missed three
+                            they would be removed from the program and an email would be automatically sent to that participant informing them. Additionally, I implemented several functions and buttons to simplify the check-in process for the organization's
+                            employees. By the end of the day, we had a functioning application to demonstrate to the rest of the group. We demonstrated how to register a user into the program, how to filter check-in forms by location, send email notifications
+                            to participants, update the attendance record for a user and demonstrate the application removing a user from the program after three missed check-ins.
+                        </p>
+                        <p>
+                            Our group was one of the few that had a functioning demonstration to present and we were declared as the winners of the competition.
+                        </p>
+                        <p>
+                            This experience was, by far, one of the most fun and useful activities I had participated in at San Diego State University. This event showed how to approach problems that require careful thought and implementation. I learned how to produce quality web
+                            solutions that are intuitive and efficient for users. Participating and winning this event also lead to an opportunity to work with the SDSU Instructional Technology Services Department and the SDSU IT User Services ServiceNow
+                            Deployment.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column col-md-4 col-sm-12">
+                    <img class="img-fluid align-self-start" src="https://live.staticflickr.com/65535/50676536308_f64e1094c6_c.jpg" style='max-width:100%; width: auto; padding:10px;' />
+                    <img class="img-fluid align-self-start" src="https://live.staticflickr.com/65535/50677283906_1d80126a18_k.jpg" style='max-width:100%; width: auto; padding:10px;' />
+                    <img class="img-fluid align-self-start" src="https://live.staticflickr.com/65535/50676536513_294112d0a1_k.jpg" style='max-width:100%; width: auto; padding:10px;' />
+                </div>
+            </div>
+            <!--Upper-->
+        </div>
+        <!--Site-Wrap-->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="/js/pageload-scripts.js "></script>
+    <script src="/js/bootstrap.min.js "></script>
+</body>
+
+</html>
